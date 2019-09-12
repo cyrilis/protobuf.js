@@ -7,10 +7,10 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dcodeIO/protobuf.js.git"
+    "url": "https://github.com/cyrilis/protobuf.js"
   },
-  "bugs": "https://github.com/dcodeIO/protobuf.js/issues",
-  "homepage": "http://dcode.io/protobuf.js",
+  "bugs": "https://github.com/cyrilis/protobuf.js/issues",
+  "homepage": "https://github.com/cyrilis/protobuf.js",
   "keywords": [
     "protobuf",
     "protocol-buffers",
