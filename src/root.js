@@ -317,7 +317,9 @@ Root.prototype._handleRemove = function _handleRemove(object) {
 
         if (/* an extension field */ object.extend !== undefined) {
             if (/* already handled */ object.extensionField) { // remove its sister field
-                object.extensionField.parent.remove(object.extensionField);
+                if (object.extensionField.parent) {
+                    object.extensionField.parent.remove(object.extensionField);
+                }
                 object.extensionField = null;
             } else { // cancel the extension
                 var index = this.deferred.indexOf(object);
